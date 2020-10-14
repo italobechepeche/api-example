@@ -1,0 +1,14 @@
+greeting:
+  message: "hello"
+  name: "quarkus"
+quarkus:
+  datasource:
+    db-kind: postgresql
+    username: postgres
+    password: example
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/postgres
+  flyway:
+    locations: db/migration
+    schemas: sample
+    migrate-at-start: true
