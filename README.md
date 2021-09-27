@@ -1,4 +1,4 @@
-# Quarkus API Sample
+# Quarkus API Example
 
 Esse projeto serve como base de API REST com endpoints que realizam operações CRUD.
 
